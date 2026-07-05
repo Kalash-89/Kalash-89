@@ -5,7 +5,7 @@
 - 🌱 Learning **SQL, Tableau, Power BI, Advanced Excel**
 - ✅ Completed the **Deloitte Data Analytics Job Simulation** (Forage) — Tableau dashboards, Excel analysis, data-driven proposals
 - 💬 Ask me about **Excel, Google Sheets, SQL, Data Visualization**
-- 📸 Photography enthusiast — ACES Photography Club
+- 📸 Photography enthusiast 
 - 🌍 Certified in Climate Studies (IIRS-ISRO Outreach Programme)
 - 📫 Reach me: [LinkedIn](https://linkedin.com/in/kalash-singh-52545b385)
 
