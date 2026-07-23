@@ -1,130 +1,140 @@
-# Hi there 👋, I'm Kalash Singh
+<h1 align="center">Hi 👋, I'm Kalash Singh</h1>
+
+<h3 align="center">Aspiring Data Analyst | Computer Science Engineering Student | Lifelong Learner</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&color=4F8EF7&center=true&vCenter=true&width=600&lines=Computer+Science+Engineering+Student;Aspiring+Software+Developer;Web+Development+%7C+AI+%26+ML+Enthusiast;Always+Learning+New+Things+🚀" alt="Typing SVG" />
+  <a href="https://www.linkedin.com/in/kalash-singh89">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Kalash-89">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://leetcode.com/u/ashh_89/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+  </a>
+  <a href="https://www.codechef.com/users/kalashhs89">
+    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
+  </a>
+  <a href="https://www.hackerrank.com/profile/kalashhs89">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
 ## 👩‍💻 About Me
 
-🎓 B.Tech Computer Science Engineering student at **ABES Engineering College (AKTU)**
+🎓 B.Tech Computer Science Engineering student at **ABES Engineering College (AKTU)**.
 
-💻 Passionate about Software Development, Web Development, and AI/ML
+📊 I'm an aspiring **Data Analyst** passionate about transforming raw data into meaningful insights and solving real-world business problems.
 
 🌱 Currently learning:
+- Python
+- SQL
+- Power BI
+- Excel
+- Data Visualization
+- Statistics
 - Data Structures & Algorithms
-- Full Stack Development
-- Machine Learning
 
-🎯 Goal: To become a Software Engineer and build impactful products.
+💡 I enjoy exploring datasets, building dashboards, solving coding problems, and continuously learning new technologies.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 ### Languages
+<p>
+<img src="https://skillicons.dev/icons?i=python,java,cpp,c,javascript,mysql"/>
+</p>
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-E34A26?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+### Data Analytics
+- 📊 Microsoft Excel
+- 📈 Power BI
+- 🐍 Python
+- 🗄️ SQL
+- 📉 Data Visualization
+- 📐 Statistics
 
 ### Web Development
-
-![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react"/>
+</p>
 
 ### Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
----
-
-## 🚀 Featured Project
-
-### 🏠 HouseIQ – Smart House Price Predictor
-
-A Machine Learning project that predicts house prices using Linear Regression.
-
-**Tech Used:** Python • HTML • CSS • JavaScript • Machine Learning
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Kalash-89&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalash-89&layout=compact&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=Kalash-89&theme=tokyonight"/>
-
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
 </p>
 
 ---
 
-## 🏆 GitHub Trophy
+## 📚 Currently Learning
+
+- Advanced SQL
+- Power BI Dashboards
+- Python for Data Analysis
+- Pandas & NumPy
+- Data Cleaning
+- Machine Learning Fundamentals
+
+---
+
+## 📈 GitHub Stats
 
 <p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Kalash-89&show_icons=true&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=Kalash-89&theme=tokyonight&margin-w=15"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalash-89&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=Kalash-89&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
-## 📈 Contribution Graph
+## 🏆 GitHub Trophies
 
 <p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kalash-89&theme=tokyo-night"/>
-
+<img src="https://github-profile-trophy.vercel.app/?username=Kalash-89&theme=tokyonight&no-frame=true&row=1&column=6"/>
 </p>
 
 ---
 
-## 🌐 Connect With Me
+## 💻 Coding Profiles
 
-<p align="left">
-
-<a href="https://www.linkedin.com/in/kalash-singh89">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/Kalash-89">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<p align="center">
+<a href="https://leetcode.com/u/ashh_89/">
+<img src="https://img.shields.io/badge/LeetCode-Profile-orange?style=flat-square&logo=leetcode"/>
 </a>
 
 <a href="https://www.codechef.com/users/kalashhs89">
-<img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
+<img src="https://img.shields.io/badge/CodeChef-Profile-brown?style=flat-square&logo=codechef"/>
 </a>
 
 <a href="https://www.hackerrank.com/profile/kalashhs89">
-<img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+<img src="https://img.shields.io/badge/HackerRank-Profile-brightgreen?style=flat-square&logo=hackerrank"/>
 </a>
-
 </p>
 
 ---
 
-## 💡 Quote
+## 🌐 Connect with Me
 
-> *"Success is built one commit at a time."* 🚀
+- 💼 LinkedIn: https://www.linkedin.com/in/kalash-singh89
+- 💻 GitHub: https://github.com/Kalash-89
+- 🧩 LeetCode: https://leetcode.com/u/ashh_89/
+- 🍜 CodeChef: https://www.codechef.com/users/kalashhs89
+- 🟢 HackerRank: https://www.hackerrank.com/profile/kalashhs89
+
+---
+
+## 💬 Quote
+
+> *"Every dataset tells a story. My goal is to uncover it through analysis and meaningful insights."*
 
 ---
 
 <p align="center">
-
-⭐ If you like my work, consider giving a star to my repositories!
-
+⭐ Thanks for visiting my profile! If you like my work, feel free to star my repositories and connect with me.
 </p>
