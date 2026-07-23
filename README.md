@@ -9,6 +9,10 @@ Aspiring Software Developer & Data Analyst | Computer Science Engineering Studen
 </p>
 
 <p align="center">
+<a href="https://kalash-89.vercel.app">
+<img src="https://img.shields.io/badge/Portfolio-e2261a?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
 <a href="https://www.linkedin.com/in/kalash-singh89">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
@@ -39,6 +43,8 @@ Aspiring Software Developer & Data Analyst | Computer Science Engineering Studen
 💻 Passionate about **Software Development**, **Web Development**, and **Data Analytics**.
 
 📊 I enjoy building web applications, solving coding challenges, and transforming raw data into meaningful insights through visualization and analytics.
+
+🌐 Check out my portfolio: **[kalash-89.vercel.app](https://kalash-89.vercel.app)**
 
 🌱 Currently learning:
 
@@ -156,6 +162,7 @@ To build scalable software solutions and leverage data analytics to solve real-w
 
 ## 🌐 Connect With Me
 
+- 🌐 Portfolio: https://kalash-89.vercel.app
 - 💼 LinkedIn: https://www.linkedin.com/in/kalash-singh89
 - 💻 GitHub: https://github.com/Kalash-89
 
