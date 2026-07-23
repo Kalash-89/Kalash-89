@@ -1,173 +1,497 @@
-<h1 align="center">Hi 👋, I'm Kalash Singh</h1>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kalash Singh — Software Developer &amp; Data Analyst</title>
+<meta name="description" content="Kalash Singh — Computer Science Engineering student, aspiring software developer and data analyst." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0a0f14;
+    --bg-panel: #0f161d;
+    --grid-line: rgba(94, 234, 212, 0.06);
+    --ink: #e7ecef;
+    --ink-dim: #96a3ab;
+    --ink-dimmer: #5f6c73;
+    --teal: #4fd1c5;
+    --amber: #f2b544;
+    --border: #1c2731;
+    --border-hover: #2c3d49;
+    --mono: 'IBM Plex Mono', ui-monospace, monospace;
+    --display: 'Space Grotesk', sans-serif;
+    --body: 'Inter', sans-serif;
+  }
 
-<h3 align="center">
-Aspiring Software Developer & Data Analyst | Computer Science Engineering Student
-</h3>
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Kalash-89&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
-</p>
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; }
+  }
 
-<p align="center">
-<a href="https://www.linkedin.com/in/kalash-singh89">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--grid-line) 1px, transparent 1px) 0 0/40px 40px,
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px) 0 0/40px 40px,
+      var(--bg);
+    color:var(--ink);
+    font-family:var(--body);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
 
-<a href="https://github.com/Kalash-89">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+  a{ color:inherit; }
+  ::selection{ background:var(--teal); color:#04201c; }
 
-<a href="https://leetcode.com/u/ashh_89/">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-</a>
+  :focus-visible{
+    outline: 2px solid var(--teal);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
 
-<a href="https://www.codechef.com/users/kalashhs89">
-<img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
-</a>
+  .wrap{ max-width:1040px; margin:0 auto; padding:0 24px; }
 
-<a href="https://www.hackerrank.com/profile/kalashhs89">
-<img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-</a>
-</p>
+  /* ---------- NAV ---------- */
+  nav{
+    position:sticky; top:0; z-index:50;
+    backdrop-filter: blur(10px);
+    background: rgba(10,15,20,0.75);
+    border-bottom:1px solid var(--border);
+  }
+  .nav-inner{
+    max-width:1040px; margin:0 auto; padding:14px 24px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .nav-brand{
+    font-family:var(--mono); font-size:14px; color:var(--teal);
+    letter-spacing:0.02em; text-decoration:none;
+  }
+  .nav-links{ display:flex; gap:26px; list-style:none; margin:0; padding:0; }
+  .nav-links a{
+    font-family:var(--mono); font-size:12.5px; text-decoration:none;
+    color:var(--ink-dim); letter-spacing:0.03em;
+    transition:color .15s ease;
+  }
+  .nav-links a:hover{ color:var(--teal); }
+  .nav-links li::before{ content:"./"; color:var(--ink-dimmer); }
+  @media (max-width:640px){ .nav-links{ display:none; } }
 
----
+  /* ---------- HERO / TERMINAL ---------- */
+  header.hero{ padding:88px 0 64px; }
+  .terminal{
+    background:var(--bg-panel);
+    border:1px solid var(--border);
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow: 0 30px 80px -30px rgba(0,0,0,0.6);
+  }
+  .terminal-bar{
+    display:flex; align-items:center; gap:8px;
+    padding:10px 14px;
+    border-bottom:1px solid var(--border);
+    background:#0c131a;
+  }
+  .dot{ width:10px; height:10px; border-radius:50%; }
+  .dot.r{ background:#ff5f56; } .dot.y{ background:#ffbd2e; } .dot.g{ background:#27c93f; }
+  .terminal-title{
+    margin-left:8px; font-family:var(--mono); font-size:12px; color:var(--ink-dimmer);
+  }
+  .terminal-body{ padding:28px 26px 32px; font-family:var(--mono); }
+  .prompt-line{ color:var(--ink-dim); font-size:13.5px; }
+  .prompt-line .sym{ color:var(--teal); }
+  .type-target{ color:var(--ink); border-right:2px solid var(--teal); white-space:nowrap; overflow:hidden; display:inline-block; }
 
-## 👩‍💻 About Me
+  .hero-name{
+    font-family:var(--display); font-weight:700;
+    font-size:clamp(34px, 6vw, 58px);
+    margin:18px 0 6px; letter-spacing:-0.01em; line-height:1.05;
+  }
+  .hero-name .accent{ color:var(--teal); }
+  .hero-role{
+    font-family:var(--mono); font-size:clamp(13px, 2vw, 16px);
+    color:var(--amber); margin:0 0 18px;
+  }
+  .hero-desc{ color:var(--ink-dim); max-width:560px; font-size:15px; margin:0 0 22px; }
 
-🎓 Computer Science Engineering student at **ABES Engineering College (AKTU)**.
+  .badge-row{ display:flex; flex-wrap:wrap; gap:10px; margin-top:8px; }
+  .badge{
+    display:inline-flex; align-items:center; gap:7px;
+    font-family:var(--mono); font-size:12px; color:var(--ink-dim);
+    border:1px solid var(--border); border-radius:6px;
+    padding:7px 12px; text-decoration:none;
+    transition:border-color .15s ease, color .15s ease, transform .15s ease;
+  }
+  .badge:hover{ border-color:var(--teal); color:var(--teal); transform:translateY(-1px); }
+  .badge .k{ color:var(--ink-dimmer); }
 
-💻 Passionate about **Software Development**, **Web Development**, and **Data Analytics**.
+  .stat-line{ display:flex; gap:22px; flex-wrap:wrap; margin-top:26px; font-family:var(--mono); font-size:12px; color:var(--ink-dimmer); }
+  .stat-line b{ color:var(--ink); font-weight:600; }
 
-📊 I enjoy building web applications, solving coding challenges, and transforming raw data into meaningful insights through visualization and analytics.
+  /* ---------- SECTION SCAFFOLD ---------- */
+  section{ padding:56px 0; border-top:1px solid var(--border); }
+  .eyebrow{
+    font-family:var(--mono); font-size:12px; color:var(--teal);
+    letter-spacing:0.08em; text-transform:uppercase; margin:0 0 10px;
+    display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{ content:""; width:18px; height:1px; background:var(--teal); display:inline-block; }
+  h2.section-title{
+    font-family:var(--display); font-size:clamp(22px,3vw,30px);
+    margin:0 0 26px; font-weight:600;
+  }
 
-🌱 Currently learning:
+  /* ---------- ABOUT ---------- */
+  .about-grid{ display:grid; grid-template-columns: 1.3fr 1fr; gap:40px; }
+  @media (max-width:760px){ .about-grid{ grid-template-columns:1fr; } }
+  .about-grid p{ color:var(--ink-dim); font-size:15px; margin:0 0 14px; }
+  .about-grid strong{ color:var(--ink); }
+  .learning-panel{
+    background:var(--bg-panel); border:1px solid var(--border); border-radius:10px; padding:20px 22px;
+  }
+  .learning-panel h3{
+    font-family:var(--mono); font-size:12px; color:var(--ink-dimmer);
+    text-transform:uppercase; letter-spacing:0.06em; margin:0 0 14px;
+  }
+  .learning-panel ul{ list-style:none; margin:0; padding:0; }
+  .learning-panel li{
+    font-family:var(--mono); font-size:13.5px; color:var(--ink-dim);
+    padding:7px 0; border-bottom:1px dashed var(--border);
+    display:flex; justify-content:space-between; gap:10px;
+  }
+  .learning-panel li:last-child{ border-bottom:none; }
+  .learning-panel li span.pct{ color:var(--amber); }
 
-- Data Structures & Algorithms
-- React.js
-- SQL
-- Power BI
-- Python for Data Analysis
-- Machine Learning Fundamentals
+  .goal-box{
+    margin-top:20px; border-left:2px solid var(--amber);
+    padding:12px 16px; background:rgba(242,181,68,0.05); border-radius:0 6px 6px 0;
+  }
+  .goal-box .eyebrow{ color:var(--amber); margin-bottom:6px; }
+  .goal-box .eyebrow::before{ background:var(--amber); }
+  .goal-box p{ margin:0; color:var(--ink); font-size:14.5px; }
 
-🎯 **Career Goal**
+  /* ---------- TECH STACK ---------- */
+  .stack-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+  @media (max-width:760px){ .stack-grid{ grid-template-columns:1fr; } }
+  .stack-card{
+    background:var(--bg-panel); border:1px solid var(--border); border-radius:10px;
+    padding:20px; transition:border-color .15s ease;
+  }
+  .stack-card:hover{ border-color:var(--border-hover); }
+  .stack-card h4{
+    font-family:var(--mono); font-size:12px; color:var(--teal);
+    text-transform:uppercase; letter-spacing:0.05em; margin:0 0 14px;
+  }
+  .stack-card img{ max-width:100%; }
+  .stack-list{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:8px; }
+  .stack-list li{
+    font-family:var(--mono); font-size:12.5px; color:var(--ink-dim);
+    border:1px solid var(--border); border-radius:5px; padding:5px 10px;
+  }
 
-To build scalable software solutions and leverage data analytics to solve real-world business problems.
+  /* ---------- PROJECTS ---------- */
+  .project-list{ display:flex; flex-direction:column; }
+  .project-row{
+    display:grid; grid-template-columns: 56px 1fr auto;
+    gap:18px; align-items:start;
+    padding:22px 0; border-top:1px solid var(--border);
+  }
+  .project-row:first-child{ border-top:none; }
+  .project-idx{
+    font-family:var(--mono); font-size:12px; color:var(--ink-dimmer); padding-top:4px;
+  }
+  .project-emoji{ font-size:22px; margin-bottom:6px; }
+  .project-row h3{ font-family:var(--display); font-size:18px; margin:0 0 6px; font-weight:600; }
+  .project-row p{ color:var(--ink-dim); font-size:14.5px; margin:0; max-width:520px; }
+  .project-tech{
+    font-family:var(--mono); font-size:11.5px; color:var(--ink-dimmer);
+    white-space:nowrap; padding-top:4px; text-align:right;
+  }
+  @media (max-width:640px){
+    .project-row{ grid-template-columns:1fr; }
+    .project-tech{ text-align:left; }
+  }
 
----
+  /* ---------- STATS / TROPHIES / GRAPH (image panels) ---------- */
+  .panel{
+    background:var(--bg-panel); border:1px solid var(--border); border-radius:10px;
+    padding:22px; overflow-x:auto;
+  }
+  .panel img{ max-width:100%; display:block; margin:0 auto; }
+  .panel + .panel{ margin-top:16px; }
+  .img-row{ display:flex; gap:16px; flex-wrap:wrap; justify-content:center; }
+  .img-row img{ flex:1 1 260px; max-width:100%; }
 
-## 🚀 Tech Stack
+  /* ---------- CODING PROFILES / CONNECT ---------- */
+  .link-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
+  @media (max-width:640px){ .link-grid{ grid-template-columns:1fr; } }
+  .link-card{
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    border:1px solid var(--border); border-radius:8px; padding:15px 18px;
+    text-decoration:none; color:var(--ink); transition:border-color .15s ease, transform .15s ease;
+  }
+  .link-card:hover{ border-color:var(--teal); transform:translateX(3px); }
+  .link-card .l-label{ font-family:var(--body); font-size:14.5px; font-weight:600; }
+  .link-card .l-sub{ font-family:var(--mono); font-size:11.5px; color:var(--ink-dimmer); display:block; margin-top:2px; }
+  .link-card .arrow{ color:var(--teal); font-family:var(--mono); }
 
-### Programming Languages
+  /* ---------- CURRENTLY WORKING ---------- */
+  .working-list{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+  @media (max-width:640px){ .working-list{ grid-template-columns:1fr; } }
+  .working-list li{
+    font-family:var(--mono); font-size:13.5px; color:var(--ink-dim);
+    display:flex; align-items:center; gap:10px;
+    border:1px solid var(--border); border-radius:7px; padding:11px 14px;
+  }
+  .working-list li::before{ content:"▹"; color:var(--amber); }
 
-<p>
-<img src="https://skillicons.dev/icons?i=java,python,cpp,c,javascript,mysql"/>
-</p>
+  /* ---------- QUOTE / FOOTER ---------- */
+  .quote{
+    text-align:center; padding:70px 24px;
+  }
+  .quote blockquote{
+    font-family:var(--display); font-weight:600;
+    font-size:clamp(20px,3.4vw,30px);
+    max-width:640px; margin:0 auto; color:var(--ink); line-height:1.4;
+  }
+  .quote blockquote::before{ content:"“"; color:var(--teal); }
+  .quote blockquote::after{ content:"”"; color:var(--teal); }
 
-### Web Development
+  footer{
+    border-top:1px solid var(--border); padding:30px 24px; text-align:center;
+  }
+  footer p{ font-family:var(--mono); font-size:12.5px; color:var(--ink-dimmer); margin:0; }
+  footer .heart{ color:var(--amber); }
+</style>
+</head>
+<body>
 
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs"/>
-</p>
+<nav>
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">kalash@dev:~$</a>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#stack">stack</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#stats">stats</a></li>
+      <li><a href="#connect">connect</a></li>
+    </ul>
+  </div>
+</nav>
 
-### Data Analytics
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+        <span class="terminal-title">whoami.sh</span>
+      </div>
+      <div class="terminal-body">
+        <div class="prompt-line"><span class="sym">➜</span> ~ whoami</div>
+        <p class="hero-name">Kalash <span class="accent">Singh</span></p>
+        <p class="hero-role">&gt; Aspiring Software Developer &amp; Data Analyst · CSE Student</p>
+        <p class="hero-desc">Computer Science Engineering student at ABES Engineering College (AKTU), building web applications, solving coding challenges, and turning raw data into decisions.</p>
 
-- Power BI
-- Microsoft Excel
-- SQL
-- Python
-- Pandas
-- NumPy
-- Data Visualization
-- Statistics
+        <div class="badge-row">
+          <a class="badge" href="https://www.linkedin.com/in/kalash-singh89" target="_blank" rel="noopener"><span class="k">in</span> LinkedIn</a>
+          <a class="badge" href="https://github.com/Kalash-89" target="_blank" rel="noopener"><span class="k">gh</span> GitHub</a>
+          <a class="badge" href="https://leetcode.com/u/ashh_89/" target="_blank" rel="noopener"><span class="k">lc</span> LeetCode</a>
+          <a class="badge" href="https://www.codechef.com/users/kalashhs89" target="_blank" rel="noopener"><span class="k">cc</span> CodeChef</a>
+          <a class="badge" href="https://www.hackerrank.com/profile/kalashhs89" target="_blank" rel="noopener"><span class="k">hr</span> HackerRank</a>
+        </div>
 
-### Tools
+        <div class="stat-line">
+          <span><b>ABES</b> Engineering College</span>
+          <span><b>AKTU</b> Affiliated</span>
+          <span><b>Ghaziabad</b>, India</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
-</p>
+<section id="about">
+  <div class="wrap">
+    <p class="eyebrow">01 — about</p>
+    <h2 class="section-title">Who I am</h2>
+    <div class="about-grid">
+      <div>
+        <p>🎓 Computer Science Engineering student at <strong>ABES Engineering College (AKTU)</strong>.</p>
+        <p>💻 Passionate about <strong>Software Development</strong>, <strong>Web Development</strong>, and <strong>Data Analytics</strong>.</p>
+        <p>📊 I enjoy building web applications, solving coding challenges, and transforming raw data into meaningful insights through visualization and analytics.</p>
 
----
+        <div class="goal-box">
+          <p class="eyebrow">career goal</p>
+          <p>To build scalable software solutions and leverage data analytics to solve real-world business problems.</p>
+        </div>
+      </div>
 
-## 🚀 Featured Projects
+      <div class="learning-panel">
+        <h3>currently learning</h3>
+        <ul>
+          <li>Data Structures &amp; Algorithms <span class="pct">DSA</span></li>
+          <li>React.js <span class="pct">JS</span></li>
+          <li>SQL <span class="pct">DB</span></li>
+          <li>Power BI <span class="pct">BI</span></li>
+          <li>Python for Data Analysis <span class="pct">PY</span></li>
+          <li>Machine Learning Fundamentals <span class="pct">ML</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-### 🏏 IPL Analysis Dashboard
-- Built an interactive Power BI dashboard to analyze IPL teams, players, match statistics, and performance trends.
-- **Tech:** Power BI • Excel
+<section id="stack">
+  <div class="wrap">
+    <p class="eyebrow">02 — tech stack</p>
+    <h2 class="section-title">What I build with</h2>
+    <div class="stack-grid">
+      <div class="stack-card">
+        <h4>Programming Languages</h4>
+        <img src="https://skillicons.dev/icons?i=java,python,cpp,c,javascript,mysql" alt="Java, Python, C++, C, JavaScript, MySQL" />
+      </div>
+      <div class="stack-card">
+        <h4>Web Development</h4>
+        <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs" alt="HTML, CSS, JavaScript, React, Node.js" />
+      </div>
+      <div class="stack-card">
+        <h4>Tools</h4>
+        <img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Git, GitHub, VS Code" />
+      </div>
+      <div class="stack-card" style="grid-column: span 3;">
+        <h4>Data Analytics</h4>
+        <ul class="stack-list">
+          <li>Power BI</li>
+          <li>Microsoft Excel</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>Pandas</li>
+          <li>NumPy</li>
+          <li>Data Visualization</li>
+          <li>Statistics</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-### 💰 Fundraising Outreach Analysis
-- Analyzed donor outreach campaigns to identify engagement patterns and improve fundraising effectiveness.
-- **Tech:** Power BI • Excel
+<section id="projects">
+  <div class="wrap">
+    <p class="eyebrow">03 — featured projects</p>
+    <h2 class="section-title">Things I've built</h2>
+    <div class="project-list">
+      <div class="project-row">
+        <div class="project-idx">01</div>
+        <div>
+          <div class="project-emoji">🏏</div>
+          <h3>IPL Analysis Dashboard</h3>
+          <p>Built an interactive Power BI dashboard to analyze IPL teams, players, match statistics, and performance trends.</p>
+        </div>
+        <div class="project-tech">Power BI<br/>Excel</div>
+      </div>
+      <div class="project-row">
+        <div class="project-idx">02</div>
+        <div>
+          <div class="project-emoji">💰</div>
+          <h3>Fundraising Outreach Analysis</h3>
+          <p>Analyzed donor outreach campaigns to identify engagement patterns and improve fundraising effectiveness.</p>
+        </div>
+        <div class="project-tech">Power BI<br/>Excel</div>
+      </div>
+      <div class="project-row">
+        <div class="project-idx">03</div>
+        <div>
+          <div class="project-emoji">🏭</div>
+          <h3>Deloitte Manufacturing Analysis</h3>
+          <p>Explored manufacturing data to uncover operational insights, KPIs, and production trends for business decision-making.</p>
+        </div>
+        <div class="project-tech">Power BI<br/>Excel</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-### 🏭 Deloitte Manufacturing Analysis
-- Explored manufacturing data to uncover operational insights, KPIs, and production trends for business decision-making.
-- **Tech:** Power BI • Excel
+<section id="stats">
+  <div class="wrap">
+    <p class="eyebrow">04 — github stats</p>
+    <h2 class="section-title">Activity &amp; numbers</h2>
 
----
+    <div class="panel img-row">
+      <img src="https://github-readme-stats.vercel.app/api?username=Kalash-89&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalash-89&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+    </div>
 
-## 📊 GitHub Stats
+    <div class="panel">
+      <img src="https://streak-stats.demolab.com?user=Kalash-89&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
+    </div>
 
-<p align="center">
+    <div class="panel">
+      <img src="https://github-profile-trophy.vercel.app/?username=Kalash-89&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub trophies" />
+    </div>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Kalash-89&show_icons=true&theme=tokyonight&hide_border=true"/>
+    <div class="panel">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kalash-89&theme=tokyo-night" alt="Contribution graph" />
+    </div>
+  </div>
+</section>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalash-89&layout=compact&theme=tokyonight&hide_border=true"/>
+<section id="connect">
+  <div class="wrap">
+    <p class="eyebrow">05 — coding profiles</p>
+    <h2 class="section-title">Where I practice</h2>
+    <div class="link-grid" style="margin-bottom:44px;">
+      <a class="link-card" href="https://leetcode.com/u/ashh_89/" target="_blank" rel="noopener">
+        <span><span class="l-label">🧩 LeetCode</span><span class="l-sub">ashh_89</span></span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="link-card" href="https://www.codechef.com/users/kalashhs89" target="_blank" rel="noopener">
+        <span><span class="l-label">🍜 CodeChef</span><span class="l-sub">kalashhs89</span></span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="link-card" href="https://www.hackerrank.com/profile/kalashhs89" target="_blank" rel="noopener">
+        <span><span class="l-label">🟢 HackerRank</span><span class="l-sub">kalashhs89</span></span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
 
-</p>
+    <p class="eyebrow">06 — currently working on</p>
+    <h2 class="section-title">On my desk right now</h2>
+    <ul class="working-list" style="margin-bottom:44px;">
+      <li>Full Stack Web Development</li>
+      <li>Data Structures &amp; Algorithms</li>
+      <li>Power BI Dashboards</li>
+      <li>SQL &amp; Database Management</li>
+      <li>Python for Data Analytics</li>
+    </ul>
 
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=Kalash-89&theme=tokyonight&hide_border=true"/>
-</p>
+    <p class="eyebrow">07 — connect</p>
+    <h2 class="section-title">Get in touch</h2>
+    <div class="link-grid">
+      <a class="link-card" href="https://www.linkedin.com/in/kalash-singh89" target="_blank" rel="noopener">
+        <span><span class="l-label">💼 LinkedIn</span><span class="l-sub">kalash-singh89</span></span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="link-card" href="https://github.com/Kalash-89" target="_blank" rel="noopener">
+        <span><span class="l-label">💻 GitHub</span><span class="l-sub">Kalash-89</span></span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
 
----
+<div class="quote">
+  <blockquote>Turning ideas into software and data into meaningful insights.</blockquote>
+</div>
 
-## 🏆 GitHub Trophies
+<footer>
+  <p>⭐ Thanks for visiting — built by Kalash Singh <span class="heart">·</span> feel free to explore my repositories and connect</p>
+</footer>
 
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Kalash-89&theme=tokyonight&no-frame=true&row=1&column=6"/>
-</p>
+</body>
+</html>
 
----
 
-## 📈 Contribution Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kalash-89&theme=tokyo-night"/>
-</p>
-
----
-
-## 💻 Coding Profiles
-
-- 🧩 LeetCode: https://leetcode.com/u/ashh_89/
-- 🍜 CodeChef: https://www.codechef.com/users/kalashhs89
-- 🟢 HackerRank: https://www.hackerrank.com/profile/kalashhs89
-
----
-
-## 🌱 Currently Working On
-
-- Full Stack Web Development
-- Data Structures & Algorithms
-- Power BI Dashboards
-- SQL & Database Management
-- Python for Data Analytics
-
----
-
-## 🌐 Connect With Me
-
-- 💼 LinkedIn: https://www.linkedin.com/in/kalash-singh89
-- 💻 GitHub: https://github.com/Kalash-89
-
----
-
-## 💡 Quote
-
-> **"Turning ideas into software and data into meaningful insights."**
-
----
-
-<p align="center">
-⭐ Thanks for visiting my profile! Feel free to explore my repositories and connect with me.
-</p>
-```
