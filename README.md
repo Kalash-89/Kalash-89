@@ -1,4 +1,3 @@
-```markdown
 <h1 align="center">Hi 👋, I'm Kalash Singh</h1>
 
 <h3 align="center">
@@ -172,4 +171,5 @@ To build scalable software solutions and leverage data analytics to solve real-w
 ⭐ Thanks for visiting my profile! Feel free to explore my repositories and connect with me.
 </p>
 ```
+
 
