@@ -1,90 +1,118 @@
+```markdown
 <h1 align="center">Hi 👋, I'm Kalash Singh</h1>
 
-<h3 align="center">Aspiring Data Analyst | Computer Science Engineering Student | Lifelong Learner</h3>
+<h3 align="center">
+Aspiring Software Developer & Data Analyst | Computer Science Engineering Student
+</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kalash-singh89">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/Kalash-89">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://leetcode.com/u/ashh_89/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-  </a>
-  <a href="https://www.codechef.com/users/kalashhs89">
-    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
-  </a>
-  <a href="https://www.hackerrank.com/profile/kalashhs89">
-    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=Kalash-89&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+</p>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/kalash-singh89">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/Kalash-89">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://leetcode.com/u/ashh_89/">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+</a>
+
+<a href="https://www.codechef.com/users/kalashhs89">
+<img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
+</a>
+
+<a href="https://www.hackerrank.com/profile/kalashhs89">
+<img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</a>
 </p>
 
 ---
 
 ## 👩‍💻 About Me
 
-🎓 B.Tech Computer Science Engineering student at **ABES Engineering College (AKTU)**.
+🎓 Computer Science Engineering student at **ABES Engineering College (AKTU)**.
 
-📊 I'm an aspiring **Data Analyst** passionate about transforming raw data into meaningful insights and solving real-world business problems.
+💻 Passionate about **Software Development**, **Web Development**, and **Data Analytics**.
+
+📊 I enjoy building web applications, solving coding challenges, and transforming raw data into meaningful insights through visualization and analytics.
 
 🌱 Currently learning:
-- Python
+
+- Data Structures & Algorithms
+- React.js
 - SQL
 - Power BI
-- Excel
-- Data Visualization
-- Statistics
-- Data Structures & Algorithms
+- Python for Data Analysis
+- Machine Learning Fundamentals
 
-💡 I enjoy exploring datasets, building dashboards, solving coding problems, and continuously learning new technologies.
+🎯 **Career Goal**
+
+To build scalable software solutions and leverage data analytics to solve real-world business problems.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Tech Stack
 
-### Languages
+### Programming Languages
+
 <p>
-<img src="https://skillicons.dev/icons?i=python,java,cpp,c,javascript,mysql"/>
+<img src="https://skillicons.dev/icons?i=java,python,cpp,c,javascript,mysql"/>
+</p>
+
+### Web Development
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs"/>
 </p>
 
 ### Data Analytics
-- 📊 Microsoft Excel
-- 📈 Power BI
-- 🐍 Python
-- 🗄️ SQL
-- 📉 Data Visualization
-- 📐 Statistics
 
-### Web Development
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react"/>
-</p>
+- Power BI
+- Microsoft Excel
+- SQL
+- Python
+- Pandas
+- NumPy
+- Data Visualization
+- Statistics
 
 ### Tools
+
 <p>
 <img src="https://skillicons.dev/icons?i=git,github,vscode"/>
 </p>
 
 ---
 
-## 📚 Currently Learning
+## 🚀 Featured Projects
 
-- Advanced SQL
-- Power BI Dashboards
-- Python for Data Analysis
-- Pandas & NumPy
-- Data Cleaning
-- Machine Learning Fundamentals
+### 🏏 IPL Analysis Dashboard
+- Built an interactive Power BI dashboard to analyze IPL teams, players, match statistics, and performance trends.
+- **Tech:** Power BI • Excel
+
+### 💰 Fundraising Outreach Analysis
+- Analyzed donor outreach campaigns to identify engagement patterns and improve fundraising effectiveness.
+- **Tech:** Power BI • Excel
+
+### 🏭 Deloitte Manufacturing Analysis
+- Explored manufacturing data to uncover operational insights, KPIs, and production trends for business decision-making.
+- **Tech:** Power BI • Excel
 
 ---
 
-## 📈 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Kalash-89&show_icons=true&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalash-89&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Kalash-89&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalash-89&layout=compact&theme=tokyonight&hide_border=true"/>
+
 </p>
 
 <p align="center">
@@ -101,40 +129,47 @@
 
 ---
 
-## 💻 Coding Profiles
+## 📈 Contribution Graph
 
 <p align="center">
-<a href="https://leetcode.com/u/ashh_89/">
-<img src="https://img.shields.io/badge/LeetCode-Profile-orange?style=flat-square&logo=leetcode"/>
-</a>
-
-<a href="https://www.codechef.com/users/kalashhs89">
-<img src="https://img.shields.io/badge/CodeChef-Profile-brown?style=flat-square&logo=codechef"/>
-</a>
-
-<a href="https://www.hackerrank.com/profile/kalashhs89">
-<img src="https://img.shields.io/badge/HackerRank-Profile-brightgreen?style=flat-square&logo=hackerrank"/>
-</a>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kalash-89&theme=tokyo-night"/>
 </p>
 
 ---
 
-## 🌐 Connect with Me
+## 💻 Coding Profiles
 
-- 💼 LinkedIn: https://www.linkedin.com/in/kalash-singh89
-- 💻 GitHub: https://github.com/Kalash-89
 - 🧩 LeetCode: https://leetcode.com/u/ashh_89/
 - 🍜 CodeChef: https://www.codechef.com/users/kalashhs89
 - 🟢 HackerRank: https://www.hackerrank.com/profile/kalashhs89
 
 ---
 
-## 💬 Quote
+## 🌱 Currently Working On
 
-> *"Every dataset tells a story. My goal is to uncover it through analysis and meaningful insights."*
+- Full Stack Web Development
+- Data Structures & Algorithms
+- Power BI Dashboards
+- SQL & Database Management
+- Python for Data Analytics
+
+---
+
+## 🌐 Connect With Me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/kalash-singh89
+- 💻 GitHub: https://github.com/Kalash-89
+
+---
+
+## 💡 Quote
+
+> **"Turning ideas into software and data into meaningful insights."**
 
 ---
 
 <p align="center">
-⭐ Thanks for visiting my profile! If you like my work, feel free to star my repositories and connect with me.
+⭐ Thanks for visiting my profile! Feel free to explore my repositories and connect with me.
 </p>
+```
+
